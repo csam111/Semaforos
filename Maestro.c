@@ -53,7 +53,7 @@ if (SS2_1==0 || SS4_1==0){
 }
 
 
-/*
+//Borrar
 tiempo();
 
 if (x1==0){
@@ -78,7 +78,8 @@ UART1_Write_Text("pare*");
 AltoTrafico=0;
 
 }
-*/
+
+//Hasta aqui
 
 if(AltoTrafico==1){
 
