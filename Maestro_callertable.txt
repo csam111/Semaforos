@@ -1,0 +1,15 @@
+main
+	__CC2DW
+	UART1_Init
+	I2C1_Init
+	Dec2Bcd
+		Div_8X8_U
+	Escribir_Hora
+		I2C1_Start
+			I2C1_Is_Idle
+			____DoIFC
+		I2C1_Wr
+			____DoIFC
+		I2C1_Stop
+	UART1_Write_Text
+		UART1_Write
