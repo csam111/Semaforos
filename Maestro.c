@@ -68,13 +68,13 @@ x1=0;
 
 if(Minutos == (y+1 ) ){
 
-UART1_Write_Text("siga*");
+UART1_Write_Text("sigacarro*");
 
 }
 
 if(Minutos != (y+1) ){
 
-UART1_Write_Text("pare*");
+UART1_Write_Text("parepreaton*");
 AltoTrafico=0;
 
 }
